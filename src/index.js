@@ -10,7 +10,7 @@ const bottomBarEl = document.querySelector('.bottom-bar');
 const LoadBtnEl = document.querySelector('.load-more');
 
 const API_URL = 'https://pixabay.com/api/?';
-const API_KEY = '35750210-01538b5c80567ccad47fd3a82';
+const API_KEY = '36349482-e807630d9fc178c184b61e3c6';
 
 const fetchPhotosData = async () => {
   return await axios.get(API_URL, {
